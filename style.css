@@ -89,23 +89,20 @@ a{
     margin-top: 180px;
 }
 .big-div3{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 120px;
+    row-gap: 120px;
     width: 1260px;
     height: 923px;
     background-color: #FFFFFF;
+    padding-top: 120px;
+    padding-left: 50px;
     margin-left: 90px;
     font-family: 'second-font';
 }
 img{
     width: 200px;
     height: 200px;
-}
-.infodiv1{
-    padding-top: 120px;
-    display: flex;
-    justify-content: space-around;
-}
-.infodiv2{
-    padding-top: 160px;
-    display: flex;
-    justify-content: space-around;
 }
